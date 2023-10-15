@@ -17,7 +17,7 @@ namespace Computor
 				new List<double>{ 1, 2, 85} };
 			Matrix m1 = new Matrix(test), m2 = new Matrix(test1);
 
-			Console.WriteLine(m1 - m2);
+			Console.WriteLine(m1 * m2);
 		}
     }
 }
